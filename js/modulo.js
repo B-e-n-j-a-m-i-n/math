@@ -6,7 +6,7 @@
  * @return number
  */
 function modulo(s, m) {
-    var sizeMax = 14; // Taille max d'entier pour l'opérateur % sur IE5
+    var sizeMax = 9; // Longueur max d'entier sur système 32 bit
     s = s.toString();
     m = parseInt(m);
     if (s.length <= sizeMax) {
