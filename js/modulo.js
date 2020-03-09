@@ -10,7 +10,7 @@ function modulo(s, m) {
     s = s.toString();
     m = parseInt(m);
     if (s.length <= sizeMax) {
-        return parseInt(s) % m;
+        return parseInt(s, 10) % m;
     } else {
         // partie de droite : nombre de taille sizeMax-1
         var nb1 = s.substr(s.length - (sizeMax - 1));
