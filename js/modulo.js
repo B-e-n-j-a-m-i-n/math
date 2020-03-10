@@ -8,7 +8,7 @@
 function modulo(s, m) {
     var sizeMax = 9; // Longueur max d'entier sur système 32 bit
     s = s.toString();
-    m = parseInt(m);
+    m = parseInt(m, 10);
     if (s.length <= sizeMax) {
         return parseInt(s, 10) % m;
     } else {
