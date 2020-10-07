@@ -1,8 +1,8 @@
 <?php
 /**
  * Calcule le modulo d'un grand nombre
- * @param string    $s    grand nombre entier
- * @param int       $m    modulo
+ * @param string    $s    dividende
+ * @param int       $m    diviseur
  *
  * @return number
  */
